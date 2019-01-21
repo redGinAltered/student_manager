@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS students;
+﻿DROP TABLE IF EXISTS students;
 DROP TABLE IF EXISTS groups;
 
 CREATE TABLE groups(
@@ -32,6 +32,9 @@ VALUES ('002', 'Клод Рейнс', 'Отпика');
 
 insert into groups (group_name, curator, speciality)
 values ('003','Имма Хотеп','Египтология');
+
+insert into groups (group_name, curator, speciality)
+values ('004','Some One','Something');
 
 insert into students (sur_name, given_name, patronymic_name, sex, date_of_birth, group_id, education_year)
 values ('Стокер','Брэм', '-',  'М', '1996-03-20', 1, 2007);
